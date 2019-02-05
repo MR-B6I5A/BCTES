@@ -90,7 +90,7 @@ m.sendMessage(args)
    }
    });
 
-const developers = ["540956827882487835","id"]
+const developers = ["454062883274489856","id"]
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
